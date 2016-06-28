@@ -1,0 +1,415 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100|Lato:100,300,400');
+
+
+/* font-family: 'Josefin Sans', sans-serif;
+ font-family: 'Lato', sans-serif;*/
+
+
+body {
+    margin: 0 auto;
+    min-width:60em;
+    max-width: 75em;
+    padding-left: 3m;;
+    padding-right: 3em;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 1em;
+    background:  fff;
+    background-size: cover;
+}
+
+#wrapper {
+    min-width: 60em;
+    max-width: 75em;
+    margin: 0 auto;
+    position: relative;
+    background-color: fff; 
+}
+
+header img {
+    
+    margin: 0 auto;
+    float:top; 
+    align-self: center;
+    max-height: 11em;;
+    display:block;
+
+}
+
+
+/*footer {
+    display:block;
+    text-align: center;
+    padding:1.5em;
+}*/
+
+
+
+/* -----------------------------------------------------Dashed line styling*/
+
+#maindash {
+    margin-top: 1.15em;
+    height: .5em;
+    background-image: url("../images/orange_dash.gif"); 
+    background-repeat: repeat-x;
+}
+
+#topdash {
+    height: 1.15em;
+    background-image: url("../images/bluedash.png"); 
+    background-repeat: repeat-x;
+    margin-top: 1.15em;
+    
+}
+
+#portdash {
+    height: .5em;
+    background-image: url("../images/bluedash.png"); 
+    background-repeat: repeat-x;
+    margin-top: 2.65em;
+}
+
+#contdash {
+    height: .5em;
+    background-image: url("../images/bluedash.png"); 
+    background-repeat: repeat-x;
+    margin-top: 3.25em;
+}
+
+#resudash {
+    height: .5em;
+    background-image: url("../images/bluedash.png"); 
+    background-repeat: repeat-x;
+    margin-top: 3.35em;
+}
+/* -------------------------------------------------------dashed line styling end*/
+
+
+#global { 
+    min-width:30em;
+    max-width: 37.5em;
+    float: left;
+    display: block;
+}
+
+
+li{ 
+    text-decoration: none;
+    font-size:135%;
+    margin-left: 5.25em;
+    padding-bottom: 1.85em;
+
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Lato', 'Arial', sans-serif;  
+}
+
+a:hover {
+    color: #FF4800;
+    text-decoration: none;
+    font-family: 'Lato', 'Arial', sans-serif;  
+}
+
+#homeimage {
+    max-width: 40%;
+    margin-right: 4em;
+    float: right;
+    display:block;
+}
+
+/* ------------------------------------------------------About Page - Styling*/
+
+#aboutimage {
+    max-width: 40%;
+    float: left;
+    display: inline-block;
+    margin-top: 2.5em;
+    
+}
+
+
+#bcglobal {
+    display: inline;
+    float: left;
+    margin-left: 3.25em;
+
+         
+}
+
+#bcglobal li{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Lato', 'Arial', sans-serif;
+    display: inline;
+    margin: .25em;
+
+    
+}
+
+#bcglobal a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Lato', 'Arial', sans-serif;
+}
+
+#bcglobal a:hover {
+    color: #FF4800;
+    text-decoration: none;
+    font-family: 'Lato', 'Arial', sans-serif;  
+}
+
+#aboutpara {
+    max-width: 60%;
+    margin-top: 2.25em;
+    margin-right:3em;
+    float: right;
+    display: inline-block;
+}
+
+#aboutpara p {
+    font-size: 1.05em;
+    line-height: 1.25em;
+    padding: .15em;
+    margin-top: .5em;
+    
+}
+
+#qfacts {
+    padding-bottom: .5em;
+    border-bottom: #afafaf dashed .02em;
+}
+
+/*---------------------------------------------------Contact Page -Styling */
+
+
+#contactbody {
+    max-width: 20%;
+    display:inline-block;
+    margin-left: 12em;
+    padding-right: 18em;
+    
+}
+        
+#contactbody p{
+    margin: 6em;
+    margin-top: 2.25em;
+    margin-left: 5em;
+
+}
+
+#contactimage {
+    position: absolute;
+    max-width: 40%;
+    display: inline-block;
+    margin-top: 1.5em; 
+}
+
+/*--------------------------------------- Portfolio Page - Styling */
+    
+#skills {
+    
+    max-width: 40%;
+    float: right;
+    margin-top: 2.5em;
+    margin-right: 3em;
+    border-left: #FF4800 solid .03em;
+    
+}
+
+#skills h2 {
+    margin-top: .75em;
+    margin-right:2.25em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+    text-align: left;
+    border-bottom: #FF4800 solid .03em;
+}
+
+#skills p {
+    
+    text-align: left;
+    font-size: 1em;
+    line-height: .25em;
+    padding: .75em;
+    
+     
+}
+
+#foliolinks{
+    margin-left:3.5em;
+}
+
+#projectone {
+    max-width: 25.5%;
+    margin-top: 2.25em;
+    padding-left:4em;
+    display: inline-block;
+}
+
+
+#projecttwo {
+    max-width: 25.5%;
+    padding-top: 2.25em;
+    margin-right: 6em;
+    display: block;
+    float:left;
+    
+}
+
+#projectthree {
+    max-width: 25.5%;
+    padding-top: 2.25em;
+    margin-right: 6em;
+    display: block;
+    float: left;
+}
+
+#projectfour {
+    max-width: 25.5%;
+    padding-top: 2.25em;
+    padding-left: 5.5em;
+    margin-right:6.5em;
+    display: inline-block;
+    
+}
+
+#projectthree img {
+    width: 137%;
+}
+
+#projectfour img {
+    width: 137%;
+}
+
+/* ------------------------------------------Tough Mudder*/
+
+#client {
+    margin-top:2.25em;
+    margin-left: 3.25em;
+    margin-right:3.25em;
+    display: block;
+}
+
+#client h1 {
+    font-size: 3em;
+}
+
+#client h2 {
+    font-size: 2em;
+    font-weight: 700;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.2em;
+    
+}
+
+#client p {
+    font-size:1.15em;
+    font-weight: 300;
+    line-height: 1.35em;
+    display:inline-block; 
+    max-width: 80%;
+    margin-bottom: 2.75em;
+    padding-left: 1.5em;
+    
+    
+}
+
+#client img {
+    display: inline-block;
+    max-width:40%;
+    margin-bottom: 1.05em;
+}
+
+#client li {
+    font-size:1.15em;
+    font-weight: 300;
+    line-height: .15em;
+    max-width: 40%;
+}
+
+#brief {
+    max-width: 100%;
+    height: 30em;
+    display:block;
+    border-bottom: #afafaf dashed .02em;
+}
+
+#brief p {
+    margin-top: 1em;
+    max-width:55%;
+    z-index:5;
+}
+#brief img{
+    float:right;
+    z-index: 4;
+}
+
+#research {
+    max-width:100%;
+    height: 88em;
+    border-bottom: #afafaf dashed .02em; 
+}
+
+#research p {
+    max-width: 90%;
+   
+}
+
+#research img {
+    float:right;
+    max-height: 40%;
+    margin-bottom:4em;
+    margin-right: 3em;
+    
+}
+
+#infograph{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#infograph img{
+    max-width: 100%;
+    margin-left: 3.5em;
+    margin-right: 3em;
+}
+
+#persona {
+    max-width: 100%;
+    height: 39em;
+    border-bottom: #afafaf dashed .02em;
+}
+#persona p {
+    max-width: 60%;
+    float:right;
+    display:inline-block;
+}
+
+#persona img {
+    max-width:40%;
+    float:left;
+    display:inline-block;
+}
+
+#wireframes {
+    border-bottom: #afafaf dashed .02em;
+}
+#wireframes p {
+    display:block;
+}
+
+#wireframes img{
+    width:100%;
+    padding-left:20em;
+    display:block;  
+}
+
+#learned {
+    border-bottom: #afafaf dashed .02em;
+}
+
+
