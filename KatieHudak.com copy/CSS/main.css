@@ -10,6 +10,8 @@ body {
     margin: 0 auto;
     min-width:60em;
     max-width: 75em;
+    height: 100%;
+    min-height: 100%;
     padding-left: 3m;;
     padding-right: 3em;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -21,9 +23,13 @@ body {
 #wrapper {
     min-width: 60em;
     max-width: 75em;
+    height: 100%;
     margin: 0 auto;
     position: relative;
-    background-color: fff; 
+    background-color: fff;
+    /*added overflow hidden to stop side scrolling*/
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 header img {
@@ -413,3 +419,13 @@ a:hover {
 }
 
 
+/*-- Test Styles --*/
+.dynamic-section {
+    /* position needed to cover other content*/
+    position: fixed;
+    /* need a bg color to cover other content underneath*/
+    background-color: #fff;
+    max-width: 100%;
+    /* content is positoned off the screen to the right*/
+    right: -1500px;
+}

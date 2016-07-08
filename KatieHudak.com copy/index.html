@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     
-    <head>
+<head>
         
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,34 +18,39 @@
     
 
     
-    <div id= wrapper>
+    <div id="wrapper">
 
         <header><a href="index.html"><img src="images/Logo.png"></a></header>     
         
-        <div id= global>
+        <div id="global">
             <ul>
-                <li><a href="about.html">About</a></li>
+                <li><a href="testabout.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="katie_hudak_resume.pdf">Resume</a></li>      
+                <li><a href="resume.html">Resume</a></li>      
             </ul>
         </div> <!--closes global nav-->
         
-        
-        
-            
-        <span id=homeimage><img src="images/KH_Center.png" alt="Katie Hudak UX Designer"/></span>
-        <div id=topdash><!-- dashed line image called in in CSS--></div>
-        <div id=portdash><!-- dashed line image called in in CSS--></div>
-        <div id=contdash><!-- dashed line image called in in CSS--></div>
-        <div id=resudash><!-- dashed line image called in in CSS--></div>        
+          
+        <span id="homeimage"><img src="images/KH_Center.png" alt="Katie Hudak UX Designer"/></span>
+        <div id="topdash"><!-- dashed line image called in in CSS--></div>
+        <!-- I added sections below each div dash line and link
+             right now the content that gets pulled in sits in the default spot
+             that it would normally hit -->
+        <section id="aboutSection" class="dynamic-section"></section>
+        <div id="portdash"><!-- dashed line image called in in CSS--></div>
+        <section id="portfolioSection" class="dynamic-section"></section>
+        <div id="contdash"><!-- dashed line image called in in CSS--></div>
+        <section id="contactSection" class="dynamic-section"></section>
+        <div id="resudash"><!-- dashed line image called in in CSS--></div>
+        <section id="resumeSection" class="dynamic-section"></section>      
         <!--<footer>
             <p>&copy; 2016 - Katie Hudak-Kay</p>     
         </footer>-->
             
     </div> <!-- Closes Wrapper-->
   
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>    
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 <script src="main.js"></script>
     
